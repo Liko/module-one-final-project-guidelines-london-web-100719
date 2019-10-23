@@ -2,8 +2,12 @@ class Station < ActiveRecord::Base
     has_many :stops
     has_many :lines, through: :stops
 
+    def self.get_all_station_names
+        self.all.map{|station| station.name.downcase}
+    end
+
     def self.stations_by_letter(letter)
-        Station.all.select{|station| station.name[0] == letter}
+        self.all.select{|station| station.name[0] == letter}
     end
   
     def self.station_names_by_letter(letter)
@@ -19,11 +23,11 @@ class Station < ActiveRecord::Base
     end
 
     def self.station_names_on_line(line_id)
-        station_id_array_by_line(line_id).map {|station_id| Station.find_by(id:station_id).name}
+        station_id_array_by_line(line_id).map {|station_id| self.find_by(id:station_id).name}
     end
 
     def self.stations_on_line_by_letter(letter)
-        station = Station.stations_by_letter(letter).sample
+        station = self.stations_by_letter(letter).sample
         line = station.lines.sample
         possible_stations = station_names_on_line(line.id).select{|station|station[0]==letter}
 

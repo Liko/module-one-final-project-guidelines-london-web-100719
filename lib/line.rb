@@ -2,7 +2,6 @@ class Line < ActiveRecord::Base
     has_many :stops
     has_many :stations, through: :stops
 
-
     def self.most_stops(line_1, line_2)
         result = line_1.stations.size <=> line_2.stations.size
         if result == -1
@@ -27,5 +26,14 @@ class Line < ActiveRecord::Base
     def self.lines_names_of_station(station_id)
         line_id_array_by_station(station_id).map {|line_id| Line.find_by(id:line_id).name}
     end
+
+    def self.get_all_line_colours
+        self.all.map{|line| line.colour.downcase}
+    end
+
+    def self.get_all_line_names
+        self.all.map{|line| line.name.downcase}
+    end
+
 
 end

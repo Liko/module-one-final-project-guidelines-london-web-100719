@@ -78,8 +78,9 @@ class QuestionChecker
     def spell_checker
         spell_checker = DidYouMean::SpellChecker.new(
             dictionary: [
-                station_names = Station.all.map{|station| station.name.downcase}, 
-                line_names = Line.all.map{|line| line.name.downcase}
+                station_names = Station.get_all_station_names, 
+                line_names = Line.get_all_line_names,
+                colour_names = Line.get_all_line_colours
             ].flatten
         )
         spell_checker.correct(self.user_input)

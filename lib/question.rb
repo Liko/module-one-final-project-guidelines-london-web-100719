@@ -93,7 +93,7 @@ class Question
 
         question = "What colour is the #{line.name} line? "
         answer = [line.colour]
-        hints = ["Black,", "Brown,", "Yellow,", "Pink,", "Grey,", "Light Blue,", "Dark Blue,", "Red,", "Green,", "Purple or", "Turquoise"] 
+        hints = Line.get_all_line_colours
 
         checkQuestion(question, answer, hints)
     end
