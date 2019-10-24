@@ -44,17 +44,17 @@ These are the steps which allow you to get up and running with the game.
 
 **Step 1** -- Download As Zip Archive
 
-&nbsp;
 
 ![image of downloadzip](https://i.ibb.co/QcfhqQK/2.png)
 
+&nbsp;
 
 **Step 2** -- Move the Zip Archive to your preferred directory
 
-&nbsp;
 
 ![image of folder](https://i.ibb.co/SxfCp2M/3.png)
 
+&nbsp;
 
 **Step 3** -- Open the Terminal and navigate to your chosen directory
 
