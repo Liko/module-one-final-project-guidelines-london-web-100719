@@ -2,11 +2,18 @@
 
 How well do you think you know the London Underground? 
 The Trivial Tube Quiz will put your Tube knowledge to the test. 
-Mind the Gap!
+
+![demogif](https://s3.gifyu.com/images/Demogif.gif)
+
+:train: Mind the Gap! :train:
+
+&nbsp;
 
 ## Getting Started
 
 These instructions will get you a copy of the project up and running on your local machine so you can play to your heart's content!
+
+&nbsp;
 
 ### Prerequisites
 
@@ -26,20 +33,23 @@ might output something like...
 ruby 2.6.1p33 (2019-01-30 revision 66950) [x86_64-darwin16]
 ```
 
+&nbsp;
 
 ### Installing the Game
 
 These are the steps which allow you to get up and running with the game.
 
+
 **Step 0** -- Visit the Project URL: https://github.com/Liko/trivial-tube-quiz
 
 **Step 1** -- Download As Zip Archive
-!image of downloadzip
+![image of downloadzip](https://i.ibb.co/QcfhqQK/2.png)
 
-**Step 2** -- Move the Zip Archive to your preferred destination
+**Step 2** -- Move the Zip Archive to your preferred directory
 !image of downloads folder
+![image of folder](https://i.ibb.co/SxfCp2M/3.png)
 
-**Step 3** -- Open the Terminal and navigate to this destination
+**Step 3** -- Open the Terminal and navigate to your chosen directory
 
 ```
 cd /Users/Liko/Downloads/trivial-tube-quiz-master
@@ -65,10 +75,15 @@ bundle exec ruby bin/run.rb
 ```
 Run the first command to play the game! If there are errors, try the second command with `bundle exec` prepended. 
 
+![main-menu](https://i.ibb.co/PZMy0Q8/Welcome-Menu.png)
+
 **Step 5** -- Test your knowledge, and top the leaderboards!
 
-![image](https://i.ibb.co/7yZCyzx/Leaderboard-Screen.png)
+&nbsp;
+![leaderboard-image](https://i.ibb.co/7yZCyzx/Leaderboard-Screen.png)
 
+
+&nbsp;
 
 ## Authors
 
@@ -78,6 +93,8 @@ Run the first command to play the game! If there are errors, try the second comm
 
 See also the list of all [contributors](https://github.com/Liko/trivial-tube-quiz/contributors) who participated in this project.
 
+
+&nbsp;
 ## License
 
 See the LICENSE.md file for details.
