@@ -96,7 +96,7 @@ class Pictures
         - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
         The game is simple, answer as many questions as you can correctly, but beware:"
         puts "        YOU ONLY HAVE 15 SECONDS TO ANSWER EACH QUESTION, SO HURRY!".red
-        puts "        (Pro tip - you can ask for a hint if you need one...)
+        puts "        (Pro tip - you can ask for a 'hint' if you need one...)
         - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - \n \n \n"
 
        Game.user_choice

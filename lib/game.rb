@@ -161,6 +161,7 @@ class Game < ActiveRecord::Base
         puts "___________|||______________________________|______________/    ".red
         puts "           |||                                        /-------- ".yellow
         puts "-----------'''---------------------------------------'          ".yellow
+        puts "YOU ONLY HAVE 15 SECONDS TO ANSWER THIS QUESTION".yellow
         puts " \n                                             \n"
     end
     
