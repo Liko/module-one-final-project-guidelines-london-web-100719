@@ -1,11 +1,11 @@
-# Trivial Tube Quiz
+# :train: Trivial Tube Quiz :train:
 
 How well do you think you know the London Underground? 
 The Trivial Tube Quiz will put your Tube knowledge to the test. 
 
-![demogif](https://s3.gifyu.com/images/Demogif.gif)
+![demogif](https://s3.gifyu.com/images/demogifv2.gif)
 
-:train: Mind the Gap! :train:
+:rotating_light: Mind the Gap! :rotating_light:
 
 &nbsp;
 
@@ -43,10 +43,12 @@ These are the steps which allow you to get up and running with the game.
 **Step 0** -- Visit the Project URL: https://github.com/Liko/trivial-tube-quiz
 
 **Step 1** -- Download As Zip Archive
+
 ![image of downloadzip](https://i.ibb.co/QcfhqQK/2.png)
 
 **Step 2** -- Move the Zip Archive to your preferred directory
 !image of downloads folder
+&nbsp;
 ![image of folder](https://i.ibb.co/SxfCp2M/3.png)
 
 **Step 3** -- Open the Terminal and navigate to your chosen directory
@@ -77,7 +79,7 @@ Run the first command to play the game! If there are errors, try the second comm
 
 ![main-menu](https://i.ibb.co/PZMy0Q8/Welcome-Menu.png)
 
-**Step 5** -- Test your knowledge, and top the leaderboards!
+**Step 5** -- Test your knowledge, and top the leaderboards! :raised_hands: :muscle: :metal:
 
 &nbsp;
 ![leaderboard-image](https://i.ibb.co/7yZCyzx/Leaderboard-Screen.png)
@@ -87,9 +89,9 @@ Run the first command to play the game! If there are errors, try the second comm
 
 ## Authors
 
-**Caroline Seilern** - [GitHub](https://github.com/cseiasp)
+:hear_no_evil: **Caroline Seilern** - [GitHub](https://github.com/cseiasp)
 
-**Li Xie** - [GitHub](https://github.com/Liko)
+:see_no_evil: **Li Xie** - [GitHub](https://github.com/Liko)
 
 See also the list of all [contributors](https://github.com/Liko/trivial-tube-quiz/contributors) who participated in this project.
 
