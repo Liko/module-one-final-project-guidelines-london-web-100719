@@ -1,11 +1,11 @@
 # :train: Trivial Tube Quiz :train:
 
 How well do you think you know the London Underground? 
-The Trivial Tube Quiz will put your Tube knowledge to the test. 
+The Trivial Tube Quiz will put your Tube knowledge to the test!
 
 ![demogif](https://s3.gifyu.com/images/demogifv2.gif)
 
-:rotating_light: Mind the Gap! :rotating_light:
+:rotating_light: Mind the Gap :rotating_light:
 
 &nbsp;
 
@@ -44,12 +44,17 @@ These are the steps which allow you to get up and running with the game.
 
 **Step 1** -- Download As Zip Archive
 
+&nbsp;
+
 ![image of downloadzip](https://i.ibb.co/QcfhqQK/2.png)
 
+
 **Step 2** -- Move the Zip Archive to your preferred directory
-!image of downloads folder
+
 &nbsp;
+
 ![image of folder](https://i.ibb.co/SxfCp2M/3.png)
+
 
 **Step 3** -- Open the Terminal and navigate to your chosen directory
 
